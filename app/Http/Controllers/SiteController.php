@@ -2,15 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Contracts\View\View;
 
 class SiteController extends Controller
 {
-    public function index()
+    public function index(): View
     {
        $data = [
         'name' => 'Gilberto',
-        'sobre_nome' => "Silva",
        ];
        return view('welcome', $data);
     }
