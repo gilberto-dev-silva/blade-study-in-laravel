@@ -23,7 +23,7 @@
 
                     <main class="mt-6">
                         <h1>Bem vindo: {{ $name }}</h1>
-                        <h1>Sobre nome: {!! $html !!}</h1>
+                        <h1>Sobre nome: {{ $sobre_nome }}</h1>
                     </main>
 
                     <footer class="py-16 text-center text-sm text-black dark:text-white/70">

@@ -10,7 +10,7 @@ class SiteController extends Controller
     {
        $data = [
         'name' => 'Gilberto',
-        'html' => "Silva",
+        'sobre_nome' => "Silva",
        ];
        return view('welcome', $data);
     }
